@@ -26,7 +26,7 @@ function TinyTurtle(canvas) {
   };
 
   self.penStyle = 'black';
-  self.penWidth = 1;
+  self.penWidth = .5;
   self.penUp = function() { isPenDown = false; return self; };
   self.penDown = function() { isPenDown = true; return self; };
   self.forward = self.fd = function(distance) {
